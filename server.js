@@ -36,7 +36,7 @@ app.use((req, res, next) => {
 })
 
 /**
- * Reaction on POST requests to the API
+ * Reaction on POST requests to the API.
  */
 app.post("/", (req, res) => {
     console.log("answering request...")
