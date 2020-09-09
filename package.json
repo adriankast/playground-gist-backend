@@ -1,0 +1,18 @@
+{
+  "name": "gist-api",
+  "private": false,
+  "version": "1.0.0",
+  "description": "forward gist submission from WoT Playground in order to keep authentication private",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"No test specified\" && exit 0",
+    "start": "node server.js",
+    "myCI": "node ci-deploy.js"
+  },
+  "author": "Adrian Kast",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1"
+  }
+}
